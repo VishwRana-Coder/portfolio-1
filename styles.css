@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Share Tech", sans-serif;
+    color: #122232;
+    overflow-x: hidden;
+}
+header nav .logo img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #122232;
+    border-radius: 100%;
+    padding: 4px;
+}
+header{
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    background-color: #ffff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 1128px;
+    margin: auto;
+    background-color: #ffff;
+}
+nav .lists ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    max-width: 1128px;
+    justify-content: center;
+}
+main section img{
+    height: 400px;
+}
+main article h1{
+    font-size: 40px;
+}
+main article span{
+    color: #00dce3;
+}
+article{
+    width: 600px;
+    margin-top: 70px;
+}
+article p{
+    margin-top: 10px;
+}
+article .languages .icons{
+    border-radius: 100%;
+    margin-top: 10px;
+    border: 1px solid #122232;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article .languages div i{
+    font-size: 30px;
+}
+article .languages div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about .section_img img{
+    height: 400px;
+    background-color: #cbe0ea;
+    border-radius: 50px;
+}
+.about{
+    padding-top:100px;
+    display: flex;
+    max-width: 1128px;
+    margin: auto;
+    justify-content: center;
+    gap: 50px;
+}
+.about .article_about h1{
+    color: #00dce3;
+}
+.article_about{
+    max-width: 600px;
+    text-align: right;
+    margin-top: 50px;
+}
+.about .article_about p{
+    margin-top: 10px;
+}
+.projects{
+    padding-top: 100px;
+    max-width: 1128px;
+    margin: auto;
+}
+.projects .project_1{
+    width: 100%;
+    gap: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.project_1 img{
+    width: 600px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.height{
+    height: 500px;
+}
+.projects .project_title h1{
+    color: #00dce3;
+}
+.project_article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project_article .title{
+    margin-top: 10px;
+}
+.project_article .description p{
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 450px;
+}
+.project_article .description .link h2{
+    margin-top: 10px;
+    color: #0096c7;
+}
+.project_article .description{
+    background-color: #e0f7fa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333333;
+    border-radius: 20px;
+}
+.contact .contact_section h1{
+    font-size: 40px;
+    color: #00dce3;
+}
+.contact{
+    max-width: 1128px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    height: 500px;
+}
+.contact_section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.contact_form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_form form input{
+    padding: 12px 12px;
+   width: 400px;
+   border-radius: 10px;
+   border: 1px solid #122232;
+}
+.contact_form form textarea{
+    width: 400px;
+    border-radius: 10px;
+    padding: 12px 12px;
+    height: 200px;
+    border: 1px solid #122232;
+    resize: none;
+}
+.contact form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="submit"] {
+  background-color: #00dce3; /* Blue background */
+  color: white;              /* White text */
+  border: none;              /* Remove default border */
+  padding: 10px 20px;        /* Space inside */
+  border-radius: 8px;        /* Rounded corners */
+  font-size: 16px;
+  cursor: pointer;           /* Pointer on hover */
+}
