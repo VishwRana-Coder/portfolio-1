@@ -1,5 +1,5 @@
 # 🌐 Personal Portfolio Website
-This is a simple portfolio website made using pure html and css. The goal was to get a basic idea of how a simple website works
+This is a simple portfolio website made using pure HTML and CSS. The goal was to get a basic idea of how a simple website works
 
 ## 🔗 Live Demo
 Check out my portfolio website here: [Visit My Portfolio](https://porfolio-1-vishw-rana.netlify.app/)
