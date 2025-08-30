@@ -2,7 +2,7 @@
 This is a simple portfolio website made using pure HTML and CSS. The goal was to get a basic idea of how a simple website works
 
 ## 🔗 Live Demo
-Check out my portfolio website here: [Visit My Portfolio](https://porfolio-1-vishw-rana.netlify.app/)
+Check out my portfolio website here: [Visit Portfolio#1](https://porfolio-1-vishw-rana.netlify.app/)
 
 [🎥 Watch the video](https://github.com/user-attachments/assets/d3cdfad8-091a-4f52-a929-a1dff7d488a6)
 
